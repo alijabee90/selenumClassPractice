@@ -1,0 +1,21 @@
+package objects;
+
+
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		
+		dog  myDog= new dog();
+		myDog.age = 7;
+		myDog.size="Medium";
+		myDog.color="black";
+        myDog.breed = "Nepolitan mastiff";
+        System.out.println(myDog.age);
+        System.out.println(myDog.size)
+      
+	}
+
+}
+			

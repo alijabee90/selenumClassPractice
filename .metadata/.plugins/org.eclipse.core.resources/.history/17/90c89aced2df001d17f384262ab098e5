@@ -1,0 +1,28 @@
+package operatorespractice;
+
+public class operatorDemo {
+
+	public static void main(String[] args) {
+		/*int numb = 10 * 5;
+		System.out.println(numb);*/
+		int remainder= 10 % 3;
+		System.out.println(remainder);
+	
+		/*int tax, price, total;
+		price=30;
+		tax= 6;
+		total = price + tax;
+		System.out.println(total);*/
+		
+		int temp = 103 - 13;
+		System.out.println(temp);
+		
+		
+		
+
+		
+		
+		
+		
+	}
+}

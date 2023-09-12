@@ -1,0 +1,27 @@
+package ForLoops;
+import java.util.Scanner;
+
+public class loopClass {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+	/*	//Task1
+		
+		for (int i =1; i <= 10;i++) {
+			System.out.println(i+"squared is:" + (i*i));
+		}*/
+		 
+	//Task 2
+	
+/*	int input = keyboard.nextInt();
+	for(int i = 1; i<= input; i++) {
+		System.out.println(input *i);
+	}*/
+		for(int count = 1; count <= 30; count++) {
+			System.out.println(count + count/count);
+		}
+	
+	}
+
+}

@@ -1,0 +1,32 @@
+package stringpackage;
+
+import java.util.Scanner;
+
+
+
+		public class stringClass {
+
+			public static void main(String[] args) {
+				Scanner keyboard = new Scanner(System.in);
+			
+				String str = "java";//shares matching values with string pool
+				String str2 = "java";//points to the same string pool as str
+				
+				str = "Javascript"; // creating a new string in the string pool 
+				
+				String str1 = new String("java");//allocates memory each time
+				
+				/*System.out.println(str);
+				System.out.println(str1); 
+
+			System.out.println( str1 + " is not the same as " + str);
+			
+			System.out.println(3 - 2 + 5);
+			System.out.println (" march 13" + (20+21));*/
+			
+				System.out.println("987" + 6 + 5 );
+			System.out.println( " 123" + (4+5));
+			System.out.println( 3 + "4" + 5);
+	}
+
+}

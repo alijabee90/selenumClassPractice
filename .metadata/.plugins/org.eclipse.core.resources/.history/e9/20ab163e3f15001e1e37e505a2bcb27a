@@ -1,0 +1,27 @@
+package ArrayList;
+import java.util.ArrayList;
+
+
+public class demoList {
+
+	public static void main(String[] args) {
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("John"); //first element on index 0
+		names.add("Harry"); // second element on index 1
+		names.add("Jack"); //third element on index 2
+		
+		System.out.println(names);
+		
+		names.add(1, "Musa"); // fourth index on index 1
+		names.add(0, "Ajay");
+		
+		System.out.println(names);//prints all elements
+		
+		names.remove("Ajay");//removes Ajay from index 0
+		names.remove(0);//removes John
+		
+		System.out.println(names);
+	}
+	
+
+}

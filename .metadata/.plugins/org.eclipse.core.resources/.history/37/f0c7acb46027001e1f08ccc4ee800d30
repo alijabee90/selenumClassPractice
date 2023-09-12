@@ -1,0 +1,54 @@
+package daytwoworkingwithLocators;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ById;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class classActevity {
+
+	
+
+	    public static void main(String[] args) throws InterruptedException {
+	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\alija\\OneDrive\\Desktop\\web tools\\selenium-java-3.141.59\\chromedriver\\chromedriver_win32\\chromedriver.exe");
+	        WebDriver driver = new ChromeDriver();
+	        driver.get("https://www.facebook.com/");
+
+	        // Find and click the "Create New Account" button
+	        WebElement createNewAccountButton = driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']"));
+	        createNewAccountButton.click();
+
+	        Thread.sleep(1000);
+
+	        // Find and fill in the First Name, Last Name, Email, and Password fields
+	        WebElement firstNameField = driver.findElement(By.name("firstname"));
+	        firstNameField.sendKeys("Automation");
+
+	        WebElement lastNameField = driver.findElement(By.name("lastname"));
+	        lastNameField.sendKeys("Testing");
+
+	        WebElement emailField = driver.findElement(By.name("reg_email__"));
+	        emailField.sendKeys("automation@test.com");
+
+	        WebElement passwordField = driver.findElement(By.name("reg_passwd__"));
+	        passwordField.sendKeys("automation123");
+
+	        // Find and click the "Sign Up" button
+	        WebElement signUpButton = driver.findElement(By.name("websubmit"));
+	        signUpButton.click();
+
+	        // Wait for a few seconds (optional) and then close the browser
+	        Thread.sleep(5000);
+	        driver.quit();
+	    
+        
+        
+        
+        
+        
+        		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package ArrayPackage;
+import java.util.Arrays;
+public class arrayClass {
+
+	public static void main(String[] args) {
+		
+		String[]days= { "monday", "Tusday", "Wendnesday"};
+		int[] numbers = new int [7];
+
+	}
+
+}

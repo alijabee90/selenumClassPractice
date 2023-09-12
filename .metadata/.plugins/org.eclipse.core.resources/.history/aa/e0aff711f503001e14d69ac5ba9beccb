@@ -1,0 +1,10 @@
+package objects;
+
+public class student {
+
+	String breed;
+	String size;
+	int age;
+	String color;
+}
+				

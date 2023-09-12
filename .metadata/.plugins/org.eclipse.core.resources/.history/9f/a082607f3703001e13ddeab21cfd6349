@@ -1,0 +1,35 @@
+package ArrayPackage;
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class arrayTasks {
+
+	public static void main(String[] args) {
+	Scanner keyboard = new Scanner(System.in);
+		
+		
+	/*int [] numbers = {1,2,3,4,5};
+		for (int number: numbers) {
+			System.out.print(number);
+		}*/
+	
+		String[]employees = {"Alex", "Omar", "Patrick"};
+		System.out.println("Enter the index of the employee:");
+		int index = keyboard.nextInt();
+		System.out.println(employees[index]);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

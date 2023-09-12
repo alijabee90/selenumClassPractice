@@ -1,0 +1,19 @@
+package treeSet;
+import java.util.TreeSet;
+public class denoTree {
+
+	public static void main(String[] args) {
+		TreeSet<String> names = new TreeSet<String>();
+		names.add("David");
+		names.add("Zach");
+		names.add("Alex");
+		System.out.println(names);
+
+		TreeSet<Integer> nums = new TreeSet<Integer>();
+		nums.add(88);
+		nums.add(7);
+		nums.add(101);
+		System.out.println(nums);
+	}
+
+}

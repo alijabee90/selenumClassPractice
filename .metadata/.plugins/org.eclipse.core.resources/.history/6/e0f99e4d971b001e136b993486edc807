@@ -1,0 +1,107 @@
+package Hashset;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.ArrayList;
+public class demoHash {
+
+	public static void main(String[] args) {
+		
+			/*	HashSet<String> names = new HashSet<String>();
+				names.add("John");
+				names.add("David");
+				names.add("Harry");
+				names.add("Harry");//overrides the old "Harry"
+				names.add("John");//overrides the old "Harry"
+				names.add("Ajay");
+				names.add("Alex");
+				names.add("Sarah");
+				names.add("Alex");
+				
+				System.out.println(names);
+				for(String name: names) {
+					System.out.println(name);
+				}*/
+	/*	HashSet<String> people = new HashSet<String>();
+		people.add("Patrick");
+		people.add("David");
+		people.add("Harry");
+		people.add("Ajay");
+		
+		Object[] peopleArr = people.toArray();
+		System.out.println(peopleArr[0]);
+		System.out.println(peopleArr[1]);
+		System.out.println(peopleArr[2]);
+		System.out.println(peopleArr[3]);*/
+		
+	/*	HashSet<String> people = new HashSet<String>();
+		people.add("Patrick");
+		people.add("David");
+		people.add("Harry");
+		
+		Iterator<String> iterator =  people.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}*/
+	/*	HashSet<String> people = new HashSet<String>();
+		people.add("Patrick");
+		people.add("David");
+		people.add("Harry");
+		ArrayList<String> peopleList = new ArrayList <> (people);
+		System.out.println(peopleList.get(0));
+		System.out.println(peopleList.get(1));
+		System.out.println(peopleList.get(2));*/
+		
+		/*HashSet<String> employees = new HashSet<String>();
+		employees.add("Sarah");
+		employees.add("Jason");
+		employees.add("Keven");
+		employees.add("Tyson");
+		employees.add("Alex");
+		employees.add("Omar");
+		employees.add("Patric");
+		System.out.println(employees);
+		for (String employee: employees ) {
+			System.out.println(employee);*/
+			
+		/*	HashSet<String> employees = new HashSet<String>();
+			employees.add("Sarah");
+			employees.add("Jason");
+			employees.add("Keven");
+			employees.add("Tyson");
+			employees.add("Alex");
+			employees.add("Omar");
+			employees.add("Patric");
+			
+			Object[] employeesArr = employees.toArray();
+			System.out.println(employeesArr[2]);
+			System.out.println(employeesArr[4]);
+			System.out.println(employeesArr[6]);
+			*/
+		
+		/*HashSet<String> names = new HashSet<String>();
+		names.add("Harry");
+		names.add("Harry");
+		
+		System.out.println(names);*/
+		
+		HashSet<String> names1 = new HashSet<String>();
+		names1.add("Polat");
+		names1.add("David");
+		names1.add("Harry");
+		ArrayList<String> otherNames = new ArrayList<String>();
+		otherNames.add("Ajay");
+		otherNames.add("Helil");
+		names1.addAll(otherNames);
+		
+		System.out.println(names1);
+		System.out.println(names1.contains("otherNames"));
+		
+		
+			}
+
+		}
+		
+
+	
+

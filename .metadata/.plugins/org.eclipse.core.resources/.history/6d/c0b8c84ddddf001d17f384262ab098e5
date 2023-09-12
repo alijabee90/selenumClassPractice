@@ -1,0 +1,14 @@
+package operatorespractice;
+
+public class operatorTask {
+
+	public static void main(String[] args) {
+		int Numb1 = 4 + 6 * 2;
+		int Numb2 = 12 / 4 - 1;
+		int Numb3 =  5 + 7 * 2 - 4;
+		int Numb4 = 8 - 6 / 3 + 2;
+		int Numb5 = 11 - 2 * 3 + 5 - 3;
+		System.out.println(numb1);
+		
+
+}

@@ -1,0 +1,10 @@
+package AJReview;
+
+public class variableReview {
+
+	public static void main(String[] args) {
+		system.out.print("Hello");
+
+	}
+
+}

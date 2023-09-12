@@ -1,0 +1,7 @@
+package operatorespractice;
+
+public class operatorTask {
+	int output1 = 4+6*2;
+	
+	
+}

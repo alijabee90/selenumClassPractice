@@ -1,0 +1,43 @@
+io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///C:/Users/alija/OneDrive/Desktop/prime%20Tech/PrimetechJava/PrimeTechFinancials/src/test/resources/features/UserMangement.feature
+(2:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario: As a user, I am able to create an item or a service'
+(3:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Given As an entity user, I am logged in'
+(4:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'And I navigate to Items tab'
+(5:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'When I click on the Add Item button'
+(6:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'And I should be on item input page'
+(7:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'When I provide item information name "Coffee mug", price 1800, unit "pc", and description "a good book"'
+(8:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'And I click Save Item button'
+(9:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Then The Item is added to the Item list table'
+(10:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'And I delete the item'
+(11:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2781)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.junit.Cucumber.<init>(Cucumber.java:156)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:90)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:76)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:49)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:513)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+

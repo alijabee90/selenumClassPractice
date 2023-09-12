@@ -1,0 +1,17 @@
+package ArrayList;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class demoList {
+
+	public static void main(String[] args) {
+		ArrayList<String> names  = new ArrayList<String>();
+              names.add("Ali"); // index 0
+              names.add("AJ"); // index1
+              names.add("Valntina"); //index 2
+              names.add("Sara");
+              System.out.println(names);
+	}
+	
+
+}

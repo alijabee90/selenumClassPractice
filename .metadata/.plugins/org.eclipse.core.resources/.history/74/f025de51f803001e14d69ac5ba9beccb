@@ -1,0 +1,38 @@
+package objects;
+
+
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		
+		/*dog myDog = new dog();
+		dog myDog2 = new dog();
+		
+		myDog.age = 7; 
+		myDog.size = "Medium";
+		myDog.color = "Black";
+		myDog.breed = "Neapolitan Mastiff";
+		
+		myDog2.age = 3;
+		myDog2.color = "Brown";
+		myDog2.size = "Small";
+		myDog2.breed = "Chow Chow";
+		
+		System.out.println(myDog2.age);
+		System.out.println(myDog2.size);*/
+		
+		student student1 = new student();
+		student student2 = new student ();
+		student student3 = new student();
+		
+		student1.firstname="Mark";
+		student2.firstname="John";
+		student3.firstname="KAte";
+		
+      
+	}
+
+}
+			

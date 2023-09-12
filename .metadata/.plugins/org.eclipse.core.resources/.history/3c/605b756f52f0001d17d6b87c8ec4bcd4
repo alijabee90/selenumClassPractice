@@ -1,0 +1,98 @@
+package statmentspractice;
+
+public class statmentTasks {
+
+	public static void main(String[] args) {
+		/*int numberOfWaterMelon; //task1
+		boolean lotsOfWaterMelon;
+		lotsOfWaterMelon = false;
+		numberOfWaterMelon= 40;
+		
+		if (numberOfWaterMelon >= 20) {
+		    System.out.println("I have more than 20 watermelon");
+		   lotsOfWaterMelon = true; 
+		}
+		 if (lotsOfWaterMelon) {
+		    System.out.println("Good job");
+		}
+		if (lotsOfWaterMelon == false) {
+		    System.out.println("I need more watermelon");
+		}*/
+		
+		
+		/*int number = 18; 
+        if (number % 7 == 0) {
+            System.out.println(number + " is an even number.");
+        } else {
+            System.out.println(number + " is an odd number.");
+        }*/
+		//Task 2
+        /*int number = 13; 
+        if (number %2 ==0) {
+        	System.out.println(number + "is an even number");
+        } else {
+            System.out.println(number + " is an add number");
+        }*/
+		
+		/*int hour = 00;
+
+		if (hour < 12) {
+		    System.out.println("It's time for Breakfast");
+		}  if (hour >= 12 && hour < 14) {
+		    System.out.println("It's time for Lunch");
+		}  if (hour >= 14 && hour < 17) {
+		    System.out.println("It's not meal time");
+		} else {
+		    System.out.println("It's time for Dinner");
+		}*/
+		
+	
+	
+	
+	/*int salary = 25000;
+	int yearOnJob = 2;
+
+	if (salary >= 30000) {
+	    if (yearOnJob >= 2) {
+	        System.out.println("You qualify for the loan");
+	    } else {
+	        System.out.println("You need 2 or more years");
+	    }
+	} else {
+	    System.out.println("You must earn at least $30,000 a year");
+	}*/
+		
+		int class1 = 98;
+		int class2 = 85;
+		int class3 = 20;
+		
+		if(class1 >= 80) {
+			System.out.println("Class1 is a B or above!");
+			if(class2 >= 80) {
+				System.out.println("Class2 is a B or above!");
+				if(class3 >= 80) {
+					System.out.println("Class3 is a B or above!");
+					System.out.println("All classes are a B or above");
+				}else {
+					System.out.println("Class3 is below a B");
+				}
+			}else {
+				System.out.println("Class2 is below a B");
+			}
+		}else {
+			System.out.println("Class1 is below a B");
+		}
+		System.out.println("This is the end of the program");
+		
+	}	
+		
+		
+		
+		
+		
+		
+		
+		
+}	  
+	  
+  }

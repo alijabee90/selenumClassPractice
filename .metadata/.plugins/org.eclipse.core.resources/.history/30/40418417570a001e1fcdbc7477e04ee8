@@ -1,0 +1,52 @@
+package objects;
+
+public  class Book {
+	
+private String title;
+private String author;
+private int numberOfPages;
+		
+public void setTitle(int i) {
+			title = i;
+		}
+		
+		public void setAuthor(String newAuthor) {
+			author = newAuthor;
+		}
+		
+		public void setnumberOfPages(int newNumberOfPages) {
+			numberOfPages = newNumberOfPages;
+		}
+		
+		public String getTitle() {
+			return title;
+		}
+
+		public String getAuthor() {
+			return author;
+		}
+		
+		public int getNumberOfPages() {
+			return numberOfPages;
+			
+
+		}
+			
+			Book() {
+				
+				System.out.println("You bought a new book.");
+				
+			}
+			
+			Book(String newTitle, String newAuthor, int newPage) {
+				System.out.println("This book has been recorded");
+				this.title = newTitle;
+				this.author = newAuthor;
+				this.numberOfPages = newPage;
+			}
+			
+			Book(String newTitle, String newAuthor) {
+				this.title = newTitle;
+				this.author = newAuthor;
+		}
+	}

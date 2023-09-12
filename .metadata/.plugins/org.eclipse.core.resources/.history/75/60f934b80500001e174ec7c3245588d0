@@ -1,0 +1,19 @@
+package ForLoops;
+
+public class forClass {
+
+	public static void main(String[] args) {
+		
+	/*for (int i = 7; i < 0;i++) {
+		System.out.println(i);
+		}
+        System.out.println("The loop is over");*/
+        
+int number;
+		
+		for(number = 5; number < 30; number +=2) {
+			System.out.println("number = " + number);
+		}
+	}
+
+}

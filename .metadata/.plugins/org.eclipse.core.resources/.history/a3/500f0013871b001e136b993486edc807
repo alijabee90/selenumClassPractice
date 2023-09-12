@@ -1,0 +1,29 @@
+package Hashset;
+
+import java.util.HashSet;
+
+public class demoHash {
+
+	public static void main(String[] args) {
+		
+				HashSet<String> names = new HashSet<String>();
+				names.add("John");
+				names.add("David");
+				names.add("Harry");
+				names.add("Harry");//overrides the old "Harry"
+				names.add("John");//overrides the old "Harry"
+				names.add("Ajay");
+				names.add("Alex");
+				names.add("Sarah");
+				names.add("Alex");
+				
+				System.out.println(names);
+
+			}
+
+		}
+		
+
+	
+
+}

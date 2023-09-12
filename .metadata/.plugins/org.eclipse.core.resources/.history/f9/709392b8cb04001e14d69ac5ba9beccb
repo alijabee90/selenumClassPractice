@@ -1,0 +1,33 @@
+package objects;
+
+import java.security.PublicKey;
+
+public class Phone {
+	
+	String brand;
+	String model;
+	String color;
+	public void setBrand(String newBrand) {
+		brand = newBrand;
+	}
+	
+	public String getBrand() {
+		return brand;
+	}
+	
+	public void setModel(String newModel) {
+		model = newModel;
+	}
+	
+	public String getModel() {
+		return model;
+	}
+	
+	public void setColor(String newColor) {
+		color = newColor;
+	}
+	
+	public String getColor() {
+		return color;
+	}
+}

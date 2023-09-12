@@ -1,0 +1,12 @@
+package objects;
+
+public class student {
+	
+	String firstname;
+	String lastname;
+	String email;
+	int age;
+	String address;
+	int batchNum;
+
+}

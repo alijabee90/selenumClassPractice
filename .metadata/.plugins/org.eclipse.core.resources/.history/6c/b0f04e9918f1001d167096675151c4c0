@@ -1,0 +1,30 @@
+package section3;
+
+public class statmentReiew {
+
+	public static void main(String[] args) {
+int x = 5;
+		
+		x++;
+		
+		if(x != 6) { //true
+			System.out.println("x is 6");
+		}
+int x = 5;
+		
+		x++;
+		
+		if(x != 6) { //true
+			System.out.println("x is 6");
+		}
+		else {//false
+			System.out.println("X is not 6");
+		}
+		
+		System.out.println("This is the end of the program");
+		
+		
+		
+	}
+
+}

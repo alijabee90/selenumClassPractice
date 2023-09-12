@@ -1,0 +1,6 @@
+package operatorespractice;
+
+public class operatorTask {
+	int output = 4+6*2;
+	System.out.println(output); 
+}

@@ -1,0 +1,12 @@
+package operatorespractice;
+
+public class operatorDemo {
+
+	public static void main(String[] args) {
+		int numb = 10 * 5;
+		System.out.println(numb);
+		int remainder= 10 % 3;
+		System.out.println(remainder);
+	
+	}
+}

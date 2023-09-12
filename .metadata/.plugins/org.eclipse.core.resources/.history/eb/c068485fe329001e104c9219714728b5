@@ -1,0 +1,54 @@
+package seleniumHomework;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class etsyHomework {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\alija\\OneDrive\\Desktop\\web tools\\selenium-java-3.141.59\\chroomdriver\\chromedriver_win32/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.etsy.com/");
+     
+        
+        
+
+        // Step 1: Go to etsy.com
+        WebElement signInBtn = driver.findElement(By.linkText("Sign in"));
+        signInBtn.click();
+
+        // Wait for a short time to allow the sign-in page to load
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // Step 2: Find the email address field and type "automation"
+        WebElement emailField = driver.findElement(By.id("join_neu_email_field"));
+        emailField.sendKeys("automation");
+
+        // Step 3: Find the password field and type "automation"
+        WebElement passwordField = driver.findElement(By.id("join_neu_password_field"));
+        passwordField.sendKeys("automation");
+
+        // Step 4: Find the sign-in button and click on it
+        WebElement signInButtonFinal = driver.findElement(By.xpath("//button[contains(@data-id, 'sign-in')]"));
+        signInButtonFinal.click();
+
+        // Wait for a short time to allow the sign-in process to complete
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // Close the browser
+        driver.quit();
+    }
+}
+	}
+
+}

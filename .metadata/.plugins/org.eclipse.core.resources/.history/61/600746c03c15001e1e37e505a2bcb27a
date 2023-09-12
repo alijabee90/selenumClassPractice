@@ -1,0 +1,12 @@
+package ArrayList;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class demoList {
+
+	public static void main(String[] args) {
+		ArrayList<String> name  = new ArrayList<String>();
+
+	}
+
+}

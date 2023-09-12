@@ -1,0 +1,22 @@
+package objects;
+
+public class demo5 {
+
+	public static void main(String[] args) {
+
+
+		Book b1 = new Book();
+		b1.setTitle("Potorkic Araj");
+		b1.setAuthor("Anushavan Poghosyan");
+		b1.setPage(250);
+		System.out.println(b1.getTitle() + " " + b1.getAuthor() + " " + b1.getPage());
+		
+		Book b2 = new Book("Harry Potter", "Joanne R.", 52787);
+		System.out.println(b2.getTitle() + " " + b2.getAuthor() + " " + b2.getPage());
+		
+		Book b3 = new Book("Game of thrones", "Random name");
+	
+
+	}
+
+}

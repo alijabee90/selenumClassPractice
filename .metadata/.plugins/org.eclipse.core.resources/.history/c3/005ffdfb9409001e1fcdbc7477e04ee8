@@ -1,0 +1,34 @@
+package AReview;
+
+public class ajReview {
+
+	public static void main(String[] args) {
+		package AjayReview;
+
+		public class BankAccount {
+			
+			static String name;
+			static int ssn;
+			
+			public BankAccount() {
+				//default constructor
+			}
+			
+			public BankAccount(String name1, int ssn2) {
+			//argument constructor
+				this.name = name1;
+				this.ssn = ssn2;
+			}
+
+			public static void main(String[] args) {
+				
+				BankAccount myAccount = new BankAccount();
+				System.out.println(myAccount.name);
+				BankAccount myAccount1 = new BankAccount("Jim Jones",284782883);
+				System.out.println(myAccount1.name);
+				System.out.println(BankAccount.name);
+			}
+
+		}	
+
+

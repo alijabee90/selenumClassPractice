@@ -1,0 +1,48 @@
+package objects;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+public class demo3 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+	/*	
+		int input1;
+		int input2;
+		int input3;
+		
+		System.out.println("Enter a number here");
+		input1 = keyboard.nextInt();
+		
+		System.out.println("Enter a number here");
+		input2 = keyboard.nextInt();
+		
+		System.out.println("Enter a number here");
+		input3 = keyboard.nextInt();
+	
+		String result1 = printStar(input1);		
+		String result2 = printStar(input2);	
+		String result3 = printStar(input3);
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+		*/
+     Student s1 = new Student();
+		
+		s1.attendClass();
+		s2. attendClass();
+		
+		s1.setFirstName("D.J Khalid");
+		s2 .setLastName ("Rick Ross");
+		System.out.println(s1.getFirstName());
+		
+		
+	}
+	public static String printStar(int number){
+		String star = "";
+		for (int i =0; i< number; i++) {
+		star = star + "*";
+	}
+		return star;
+}
+}

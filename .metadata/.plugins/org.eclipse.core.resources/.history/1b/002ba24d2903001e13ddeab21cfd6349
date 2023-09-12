@@ -1,0 +1,21 @@
+package ArrayPackage;
+import java.util.Arrays;
+public class arrayClass {
+
+	public static void main(String[] args) {
+		
+		//String[]days= { "monday", "Tusday", "Wendnesday"};
+String[] days = new String[3];
+		
+		days[0] = "Sunday";
+		days[1] = "Monday";
+		days[2] = "Tuesday";
+		
+		System.out.println("Today is " + days[5]);
+		
+		int[] numbers = new int[7];
+		System.out.println(numbers [2]);
+		
+	}
+
+}

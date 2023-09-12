@@ -1,0 +1,15 @@
+package seleniumHomework;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class indeedHomeWrok {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\alija\\OneDrive\\Desktop\\web tools\\selenium-java-3.141.59\\chroomdriver\\chromedriver_win32/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.indeed.com/");
+        String homeURL = driver.getCurrentUrl();
+	}
+
+}

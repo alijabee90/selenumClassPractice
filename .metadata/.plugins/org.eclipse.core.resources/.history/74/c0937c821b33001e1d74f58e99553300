@@ -1,0 +1,45 @@
+package ThurdClassReview;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.service.DriverCommandExecutor;
+
+
+public class Automationtest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\alija\\OneDrive\\Desktop\\web tools\\selenium-java-3.141.59\\chroomdriver\\chromedriver_win32/chromedriver.exe");
+		testCase1();
+	}
+	public static void testCase1() {
+
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		//	Step 1: Go to "https://www.automationtesting.co.uk".
+		
+		String uRl = "https://www.automationtesting.co.uk";
+		driver.get(uRl);
+		driver.findElement(By.cssSelector(".close-cookie-warning > span")).click();
+		
+	
+//			Step 2: Maximize browser and declare implicitly wait for 5 seconds.
+		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+//			Step 3: Locate the Element for "test store" store it in variable and click it.
+		
+		WebElement testStoreBtm = driver.findElement(By.xpath("//*[contains(text(),'Test Store')]"));
+		testStoreBtm.click();
+		Thread.sleep(1000);
+		//			Step 4: Locate the search text box and store it in variable.
+		WebElement searchBox = driver.findElement(By.className("ui-autocomplete-input"));
+		
+//			Step 5: Search for "Mug" and use SendKeys to Press ENTER.
+		searchBox.sendKeys("Mug");
+		searchBox.sendKeys(Keys.ENTER);
+	}
+
+}

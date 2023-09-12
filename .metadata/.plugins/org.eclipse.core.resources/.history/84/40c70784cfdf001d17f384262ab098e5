@@ -1,0 +1,9 @@
+package operatorespractice;
+
+public class operatorDemo {
+
+	public static void main(String[] args) {
+		int numb = 10 + 5;
+		System.out.println(Numb);
+
+}

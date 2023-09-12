@@ -1,0 +1,15 @@
+package objects;
+
+public class Student {
+
+	String firstName;
+	String lastName;
+	String email;
+	int age;
+	String address;
+	int batchNum;
+	
+	public void attendClass() {
+		System.out.println("The student attended class");
+	}
+}

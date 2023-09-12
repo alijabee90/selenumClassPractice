@@ -1,0 +1,21 @@
+package AJReview;
+
+public class variableReview {
+
+	public static void main(String[] args) {
+	/*	int a;
+		a =12;
+		int c=10, d=10, e=10;
+		
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);*/
+		
+		int X = 3; 
+		int A = 32;
+		String Y;
+		Y = " ali ";
+		System.out.println("Hello MY Name is"  + Y + "And MY AGE is "+ A, + "I Love number" + X);
+	}
+
+}

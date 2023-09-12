@@ -1,0 +1,48 @@
+package classReview;
+import java.security.spec.ECField;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class firstClassReview {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\alija\\OneDrive\\Desktop\\web tools\\selenium-java-3.141.59\\chroomdriver\\chromedriver_win32/chromedriver.exe");
+		 WebDriver driver = new ChromeDriver();
+	        driver.get("https://automationtesting.co.uk");
+	   
+	        WebElement contactUsFormTestLink = driver.findElement(By.linkText("Contact Us Form Test"));
+	        contactUsFormTestLink.click();
+
+	        
+	        WebElement firstNameField = driver.findElement(By.name("firstname"));
+	        firstNameField.sendKeys("John");
+
+	        WebElement lastNameField = driver.findElement(By.name("lastname"));
+	        lastNameField.sendKeys("Doe");
+
+	        WebElement emailField = driver.findElement(By.name("email"));
+	        emailField.sendKeys("john.doe@example.com");
+
+	        WebElement messageField = driver.findElement(By.name("message"));
+	        messageField.sendKeys("This is a test message.");
+
+	        
+	        WebElement submitButton = driver.findElement(By.xpath("//input[@type='submit']"));
+	        submitButton.click();
+
+	       
+	        WebElement successMessage = driver.findElement(By.xpath("//div[@id='content']/p"));
+	        if (successMessage.getText().equals("Thank you for your mail!")) {
+	            System.out.println("Success message: Thank you for your mail!");
+	        } else {
+	            System.out.println("Error: The success message was not found.");
+	        }
+
+	       
+	        driver.quit();
+	    }
+	   
+
+}

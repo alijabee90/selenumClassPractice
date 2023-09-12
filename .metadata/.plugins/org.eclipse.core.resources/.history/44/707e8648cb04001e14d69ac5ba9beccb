@@ -1,0 +1,7 @@
+package objects;
+
+public class phone {
+String brand;
+String model;
+String colors;
+}

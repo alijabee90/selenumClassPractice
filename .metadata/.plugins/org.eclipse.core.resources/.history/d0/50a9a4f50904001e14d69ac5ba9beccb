@@ -1,0 +1,29 @@
+package objects;
+
+public class dog {
+	
+	String breed;
+	String size;
+	int age;
+	String color;
+	boolean canPlay = false;
+
+
+
+public void Eat() {
+	System.out.println("The dog ate");
+}
+
+public void Sleep() {
+	canPlay = true;
+	System.out.println("The dog is Sleeping");
+}
+
+public void Run() {
+	if(canPlay == true) {
+		System.out.println("The dog is playing");
+	}
+	else {
+		System.out.println("The dog needs to sleep");
+	}
+}

@@ -1,0 +1,33 @@
+package AJReview;
+
+public class variableReview {
+
+	public static void main(String[] args) {
+	/*	int a;
+		a =12;
+		int c=10, d=10, e=10;
+		
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);*/
+		
+		/*int X = 3; 
+		int A = 32;
+		String Y;
+		Y = " ali ";
+		System.out.println("Hello MY Name is"  + Y + "And MY AGE is "+ A + " My favort number is " + X);*/
+		
+		boolean A = true;
+		double B = 5.99;
+		String name = "Ajay";
+		char B = 'B';
+		int count = 209329;
+		int quantity = 10;
+		long bignumber = 1939123902232323232L;
+		short smallNumber = 32000;
+		boolean x = false;
+		String code = "cd23232345i";
+		
+			}
+
+}

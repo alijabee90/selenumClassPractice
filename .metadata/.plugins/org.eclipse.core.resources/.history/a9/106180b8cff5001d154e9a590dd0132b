@@ -1,0 +1,20 @@
+package stringpackage;
+
+import java.util.Scanner;
+
+public class stringClass {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		String str = "java";
+		
+		String str1 = new String("Hello World");
+		
+		System.out.println(str);
+		System.out.println(str1);
+
+	
+
+	}
+
+}

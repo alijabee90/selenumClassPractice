@@ -1,0 +1,43 @@
+package ThurdClassReview;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.service.DriverCommandExecutor;
+
+
+public class Automationtest {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\alija\\OneDrive\\Desktop\\web tools\\selenium-java-3.141.59\\chroomdriver\\chromedriver_win32/chromedriver.exe");
+		testCase1();
+	}
+	public static void testCase1() throws InterruptedException {
+
+
+		testcase1();
+		
+	}
+	public static void testcase1() {
+		
+			WebDriver driver = new ChromeDriver();
+			String uRl = "https://www.automationtesting.co.uk/";
+			driver.get(uRl);
+			driver.manage().window().maximize();
+			driver.findElement(By.cssSelector(".close-cookie-warning > span")).click();	
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			WebElement testStoreBtm = driver.findElement(By.xpath("//*[contains(text(),'Test Store')]"));
+			testStoreBtm.click();
+			WebElement searchBox = driver.findElement(By.className("ui-autocomplete-input"));
+			searchBox.sendKeys("Mug");
+			searchBox.sendKeys(Keys.ENTER);
+			
+	}
+
+}
+	}
+
+}

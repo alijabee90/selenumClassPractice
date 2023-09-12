@@ -1,0 +1,27 @@
+package ArrayPackage;
+import java.util.Arrays;
+public class arrayTasks {
+
+	public static void main(String[] args) {
+		
+		int [] numbers = {1,2,3,4,5};
+		for (String number : numbers) {
+			System.out.println(numbers);
+		}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

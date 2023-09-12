@@ -1,0 +1,47 @@
+package treeSet;
+import java.util.TreeSet;
+import java.util.HashSet;
+public class denoTree {
+
+	public static void main(String[] args) {
+		/*TreeSet<Integer> nums = new TreeSet<Integer>();
+		nums.add(88);
+		nums.add(7);
+		nums.add(101);
+		System.out.println(nums);
+		
+		HashSet<String> nameHash = new HashSet<String>();
+		nameHash.add("David");
+		nameHash.add("Ajay");
+		nameHash.add("Harry");
+		nameHash.add("Sam");
+		
+		System.out.println(nameHash);
+		TreeSet<String> nameTree = new TreeSet<String>(nameHash);
+		System.out.println(nameTree);*/
+		
+		TreeSet <String> employees = new TreeSet<String>();
+		employees.add("Sarah");
+		employees.add("Jason");
+		employees.add("Kevin");
+		employees.add("Tyson");
+		employees.add("Alex");
+		employees.add("Omar");
+		employees.add("Patrick");
+		System.out.println(employees);
+		System.out.println("$$$$$$$$$$$$$$$$");
+		employees.add("Zack");
+		employees.remove("Sarah");
+		System.out.println(employees);
+		System.out.println("$$$$$$$$$$$$$$$$");
+		employees.add("Andy");
+		employees.add("mark");
+		employees.remove("Patrick");
+		System.out.println(employees);
+		System.out.println("$$$$$$$$$$$$$$$$");
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package secion5;
+
+public class bildingBufferReview {
+
+	public static void main(String[] args) {
+String name = "Matt";//create string
+		
+		name = "Matthew";//creating a new string and 'name' now points to theis new string
+
+		StringBuilder builder = new StringBuilder("Hello");
+		
+		builder.append("  World");// HelloWorld
+		
+		StringBuffer sBuffer = new StringBuffer("Open");
+		
+		sBuffer.append(" Door");
+		
+		System.out.println(builder);
+		
+		System.out.println(sBuffer);
+		
+builder.reverse(); //Flips the order of characters
+		
+		sBuffer.reverse();
+		
+		System.out.println(builder);
+		
+		System.out.println(sBuffer);
+		
+		StringBuilder sentence = new StringBuilder("java is fun");
+		
+		sentence.delete(2,8); //jafun
+		
+		System.out.println(sentence);
+	}
+
+}

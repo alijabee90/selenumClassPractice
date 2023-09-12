@@ -1,0 +1,63 @@
+package objects;
+
+
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		
+		/*dog myDog = new dog();
+		dog myDog2 = new dog();
+		
+		myDog.age = 7; 
+		myDog.size = "Medium";
+		myDog.color = "Black";
+		myDog.breed = "Neapolitan Mastiff";
+		
+		myDog2.age = 3;
+		myDog2.color = "Brown";
+		myDog2.size = "Small";
+		myDog2.breed = "Chow Chow";
+		
+		System.out.println(myDog2.age);
+		System.out.println(myDog2.size);*/
+		
+		/*student student1 = new student();
+		student student2 = new student ();
+		student student3 = new student();
+		
+		student1.firstname="Mark";
+		student2.firstname="John";
+		student3.firstname="KAte";*/
+		
+		phone myPhone = new phone();
+		phone myPhone2 = new phone();
+		phone myPhone3= new phone();
+		 
+		myPhone.brand ="Nokia";
+		myPhone.model = "N95";
+		myPhone.colors = "BLACK And Red";
+		
+		System.out.println(myPhone.brand);
+		System.out.println(myPhone.model);
+		System.out.println(myPhone.colors);
+		
+		myPhone2.brand = "iPhone";
+		myPhone2 .model = "14ProMAx";
+		myPhone2 .colors = "Green";
+		System.out.println(myPhone2.brand);
+		System.out.println(myPhone2.model);
+		System.out.println(myPhone2.colors);
+		
+		myPhone3.brand = "samsung";
+		myPhone3 .model = "note15";
+		myPhone3 .colors = "pink";
+		System.out.println(myPhone3.brand);
+		System.out.println(myPhone3.model);
+		System.out.println(myPhone3.colors);
+      
+	}
+
+}
+			

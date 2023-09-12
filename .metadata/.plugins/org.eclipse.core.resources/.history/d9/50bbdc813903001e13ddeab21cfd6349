@@ -1,0 +1,47 @@
+package ArrayPackage;
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class arrayTasks {
+
+	public static void main(String[] args) {
+	Scanner keyboard = new Scanner(System.in);
+		
+		
+	/*int [] numbers = {1,2,3,4,5};
+		for (int number: numbers) {
+			System.out.print(number);
+		}*/
+	
+		//String[]employees = {"Alex", "Omar", "Patrick"};
+		/*System.out.println("Enter the index of the employee:");
+		int index = keyboard.nextInt();
+		System.out.println(employees[index]);*/
+	
+	/*	employees[0] = "Suzie"; //Alex
+		employees[2] = "AJ";    //Patrick
+		employees[1] = "Katie";	//Omar
+		
+		for(String employee: employees) {
+			System.out.println(employee);
+		}*/
+	int[] numbers = new int [10];
+	for(int i =0; i < numbers. length; i++) {
+		numbers [i]= 10  i;
+	}
+	System.out.println(java.util.Arrays.toString(numbers));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
